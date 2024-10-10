@@ -1,15 +1,15 @@
 const http=require('http')
-
 const server=http.createServer(function(req, res){
-    console.log(req.url);
+    if(req.url==='/'){
+        res.end(" server start")
+    }else if(req.url==='/admin'){
+        res.end("Admin file")
+    }else{
+        res.end("not found")
+    }
     
-    res.end("the start the code  ")
 })
 
 server.listen(1212);
 
 
-server.listen(1414);
-
-
-HTTPS.get
