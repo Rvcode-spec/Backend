@@ -34,5 +34,3 @@ function UptoLoAlp(str) {
 let input1 = "hello";
 console.log(UptoLoAlp(input1));
 
-// let input2 = "world";
-// console.log(UptoLoAlp(input2)); 
